@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>The Wrongulator</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/main.css"/>
+    </head>
+    <body>
+        <h1>The Wrongulator</h1>
+        <h3>Any correct result is purely coincidental!</h3>
+        <div id="calculator">
+            <!-- Screen and clear key -->
+            <div class="top">
+                <span class="clear">C</span>
+                <div class="screen" id="screen"></div>
+            </div>
+
+            <div class="keys">
+                <!-- operators and other keys -->
+                <span data-value="7" class="js-number-button">7</span>
+                <span data-value="8" class="js-number-button">8</span>
+                <span data-value="9" class="js-number-button">9</span>
+                <span class="operator">+</span>
+                <span data-value="4" class="js-number-button">4</span>
+                <span data-value="5" class="js-number-button">5</span>
+                <span data-value="6" class="js-number-button">6</span>
+                <span class="operator">-</span>
+                <span data-value="1" class="js-number-button">1</span>
+                <span data-value="2" class="js-number-button">2</span>
+                <span data-value="3" class="js-number-button">3</span>
+                <span class="operator">÷</span>
+                <span data-value="0" class="js-number-button">0</span>
+                <span>.</span>
+                <span class="eval">=</span>
+                <span class="operator">x</span>
+            </div>
+        </div>
+        <footer>
+            <p>Based on the calculator tutorial by <a href="http://thecodeplayer.com/walkthrough/javascript-css3-calculator">TheCodePlayer</a></p> <p><a href="https://github.com/sergiouve/wrongulator">Github page</a></p>
+        </footer>
+        <script src="assets/js/calculator.js"></script>
+    </body>
+</html>
